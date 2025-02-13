@@ -1,0 +1,43 @@
+.feedback-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #e21414;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.feedback-form-container h2 {
+  text-align: center;
+}
+
+
+
+.login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+
+  form{
+    .ant-form-item{
+      display: block;
+      margin-bottom: 6px;
+      .ant-form-item-row{
+        display: block;
+        .ant-form-item-label{
+          text-align: left;
+        }
+      }
+    }
+    .forgetpassword{
+      justify-content: space-between;
+      .forgetpass{
+        padding: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.login-container, .forgot-container, .signup-container, .home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  
+  .error, .message {
+    color: red;
+    font-size: 14px;
+  }
+main{
+  margin: auto;
+  width: 94%;
+  max-width: 1200px;
+}
+.cardgrey{
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 36px;
+}

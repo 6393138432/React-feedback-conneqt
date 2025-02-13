@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #001529;
+    color: white;
+    position: relative;
+    height: 60px;
+  
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+      
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  
+    .nav-menu {
+      flex-grow: 1;
+      justify-content: flex-end;
+      background: transparent;
+  
+      .ant-menu-item {
+        color: white !important;
+        font-size: 16px;
+        font-weight: 500;
+      }
+  
+      .ant-menu-item-selected {
+        background: #1890ff !important;
+        color: white !important;
+      }
+    }
+  
+    .menu-toggle {
+      display: none;
+      color: white;
+      background: none;
+      border: none;
+      font-size: 22px;
+    }
+  
+    // Mobile View
+    @media (max-width: 768px) {
+      .nav-menu {
+        display: none;
+      }
+  
+      .menu-toggle {
+        display: block;
+      }
+  
+      .ant-drawer-body {
+        padding: 0;
+      }
+  
+      .ant-menu {
+        border-right: none;
+      }
+    }
+  }
+  
