@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Form, Input, Button, Checkbox, Typography, Flex, message } from "antd";
 import { Link } from "react-router-dom";
-import "./feedbackForm.scss";
-import "./form.scss";
+import "../traingform/feedbackform.scss";
+import "../../style/form.scss";
 import { users } from "../../data/uses"; // Importing dummy user data
 
 const { Title } = Typography;

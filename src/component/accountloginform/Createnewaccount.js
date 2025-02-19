@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
 import {
-  AutoComplete,
   Button,
   Cascader,
   Checkbox,
-  Col,
   Form,
   Input,
-  InputNumber,
-  Row,
   Select,
 } from 'antd';
 
@@ -102,18 +98,6 @@ const Createnewaccount = () => {
     </Form.Item>
   );
 
-  const suffixSelector = (
-    <Form.Item name="suffix" noStyle>
-      <Select
-        style={{
-          width: 70,
-        }}
-      >
-        <Option value="USD">$</Option>
-        <Option value="CNY">¥</Option>
-      </Select>
-    </Form.Item>
-  );
 
   return (
     <div>

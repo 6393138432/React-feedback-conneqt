@@ -15,7 +15,7 @@ const HeaderNav = () => {
     <header className="header">
       {/* Logo */}
       <div className="logo">
-        <Link to="/">MyApp</Link>
+        <Link to="/home">MyApp</Link>
       </div>
 
       {/* Desktop Menu */}

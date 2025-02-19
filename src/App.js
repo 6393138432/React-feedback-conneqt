@@ -7,9 +7,10 @@ import Feature from "./pages/Feature";
 import Trainingfeedback from "./pages/Trainingfeedback";
 import Trainingdetailpage from "./component/traingform/Trainingdetailpage";
 import ForgotPassword from "./component/form/ForgotPassword";
-import Login from "./component/form/Login";
-import Createnewaccount from "./component/form/Createnewaccount";
+import Login from "./component/accountloginform/Login";
+import Createnewaccount from "./component/accountloginform/Createnewaccount";
 import Layout from "./component/layout/Layout";
+import FeedbackForm from "./component/traingform/FeedbackForm";
 
 const router = createBrowserRouter([
   {
@@ -32,9 +33,10 @@ const router = createBrowserRouter([
         path: "training-feed-back",
         element: <Trainingfeedback />,
       },
+      
       {
-        path: "training-detail-page",
-        element: <Trainingdetailpage />,
+        path: "feedback-form",
+        element: <FeedbackForm />,
       },
       {
         path: "/contact",
@@ -57,3 +59,4 @@ function App() {
 }
 
 export default App;
+ 

@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Form, Input, Button, Typography, message } from "antd";
 import { Link } from "react-router-dom";
 import { users } from "../../data/uses";  // Import the dummy data
-import "./feedbackForm.scss";
-import "./form.scss";
+import "../traingform/feedbackform.scss";
+import "../../style/form.scss";
 
 const { Title } = Typography;
 
